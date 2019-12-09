@@ -1,0 +1,64 @@
+header {
+  background-color: blue;
+  height: 75px;
+  line-height: 75px;
+}
+
+#b {
+  height: 150px;
+  line-height: 150px;
+  background-color: violet;
+}
+
+#cd div {
+  height: 125px;
+  line-height: 125px;
+}
+
+#cd div:first-of-type {
+  background-color: teal;
+}
+
+#cd div:last-of-type {
+  background-color: tomato;
+}
+
+#efgh div {
+  height: 250px;
+  width: 240px;
+  line-height: 250px;
+}
+
+#efgh {
+  display: grid;
+  grid-template-rows: 50% 50%;
+  grid-template-columns: 50% 50%;
+}
+
+#efgh div:nth-of-type(1) {
+  background-color: magenta;
+}
+
+#efgh div:nth-of-type(2) {
+  background-color: turquoise;
+}
+
+#efgh div:nth-of-type(3) {
+  background-color: darkolivegreen;
+}
+
+#efgh div:nth-of-type(4) {
+  background-color: brown;
+}
+
+#i {
+  height: 80px;
+  line-height: 80px;
+  background-color: cornflowerblue;
+}
+
+@media only screen and (min-width: 768px) {
+
+
+  
+}
